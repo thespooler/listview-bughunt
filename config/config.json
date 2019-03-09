@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-view-bughunt-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewBughunt/ListViewBughuntWebPart.js",
+          "manifest": "./src/webparts/listViewBughunt/ListViewBughuntWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListViewBughuntWebPartStrings": "lib/webparts/listViewBughunt/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "listview-demo",
+    "libraryId": "096ec968-b5d1-434e-a937-57d22aae33bc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "framework": "react",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "listview-demo-client-side-solution",
+    "id": "096ec968-b5d1-434e-a937-57d22aae33bc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/listview-demo.sppkg"
+  }
+}
