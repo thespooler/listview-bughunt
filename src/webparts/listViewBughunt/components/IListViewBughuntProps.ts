@@ -10,4 +10,5 @@ export interface IListViewBughuntProps {
 
 export interface IListViewBughuntState {
   currentItem: MyItems;
+  bug: boolean;
 }
