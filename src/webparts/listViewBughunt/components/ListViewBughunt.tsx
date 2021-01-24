@@ -1,9 +1,6 @@
 import * as React from 'react';
-import styles from './ListViewBughunt.module.scss';
 import { IListViewBughuntProps, IListViewBughuntState } from './IListViewBughuntProps';
-import { escape, findIndex } from '@microsoft/sp-lodash-subset';
 import { ListView, SelectionMode } from '@pnp/spfx-controls-react/lib/ListView';
-
 
 export default class ListViewBughunt extends React.Component<IListViewBughuntProps, IListViewBughuntState> {
   constructor(props: IListViewBughuntProps) {
